@@ -11,11 +11,11 @@
   },
   "dependencies": {
     "@astrojs/svelte": "^4.0.2",
-    "@astrojs/tailwind": "^5.0.0",
-    "@astrojs/vercel": "^5.0.1",
+    "@astrojs/tailwind": "^5.0.2",
+    "@astrojs/vercel": "^5.0.2",
     "@iconify/iconify": "^3.1.1",
     "@tailwindcss/typography": "^0.5.10",
-    "astro": "^3.2.0",
+    "astro": "^3.3.1",
     "svelte": "^4.2.1",
     "tailwindcss": "^3.3.3"
   },
