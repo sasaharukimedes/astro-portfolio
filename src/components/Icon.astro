@@ -1,0 +1,25 @@
+---
+import Iconify from "@iconify/iconify";
+
+interface Props {
+  icon: string;
+  class?: string;
+}
+
+const props = Astro.props;
+
+const getIconSvg = async (icon: string) => {
+  await Iconify.loadIcon(icon);
+
+  const iconData = Iconify.getIcon(icon);
+  if (!iconData) throw new Error(`Icon ${icon} not found`);
+
+  return (
+    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${iconData.left} ${iconData.top} ${iconData.width} ${iconData.height}" fill="none" style="width:100%">` +
+    iconData.body +
+    "</svg>"
+  );
+};
+---
+
+<div set:html={await getIconSvg(props.icon)} class={props.class} />
