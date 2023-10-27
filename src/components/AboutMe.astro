@@ -4,12 +4,14 @@ import Icon from "./Icon.astro";
 
 <div class="hero mx-auto w-full py-10 min-h-screen bg-base-200">
   <div class="hero-content flex-col lg:flex-row">
-    <div class="tooltip rounded-full w-25 h-25" data-theme="luxury" data-tip="Hi! Welcome to My Portfolio!">
+    <div class="tooltip rounded-full w-25 h-25" data-theme="lofi" data-tip="Hi! Welcome to My Portfolio!">
       <img src="/icon.gif" class="max-w-sm rounded-full w-25 h-25 ring ring-primary ring-offset-base-100 ring-offset-2" alt="my icon"/>
     </div>
-    <a href="https://github.com/sasaharukimedes">
-      <Icon class="w-20" icon="ri:github-fill" />
-    </a>
+    <div class="tooltip rounded-full" data-theme="lofi" data-tip="My Github" >
+      <a href="https://github.com/sasaharukimedes">
+        <Icon class="w-20" icon="ri:github-fill"/>
+      </a>
+    </div>
     <div class="m-5">
       <h1 id="AboutMe" class="text-3xl lg:text-5xl font-bold">I'm Harukimedes!</h1>
       <p class="py-6">
