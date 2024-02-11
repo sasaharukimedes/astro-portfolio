@@ -1,3 +1,27 @@
+# Name
+
+**ポートフォリオ**
+
+# DEMO
+
+![トップ画面](/public/portfolio.png)
+
+**[ポートフォリオ](https://harukimedes-portfolio.vercel.app/)**
+
+# Digest
+
+このポートフォリオは Astro で制作しています。簡単な hmtl だけでも書くことが出来、ReactやSvelteなどで書くこともできるということで、汎用性や書きやすさの観点で採用しました。これまでの経歴や、制作物などがわかりやすくまとめられているポートフォリオを目指して開発しており、適宜書き直していく予定です。ですので、トップ画面ももしかしたら大きく変更されているかもしれません。
+
+### English Below
+
+This portfolio was created in Astro. It was chosen for its versatility and ease of writing, as it can be written using only simple hmtl and can also be written in React, Svelte, etc. We are developing this site with the aim of creating a portfolio that clearly summarizes our past history and productions, and we plan to rewrite it as needed. Therefore, the top screen may possibly be changed significantly.
+
+# Features
+
+- Using Astro
+- Using TailwindCSS & daisyUI
+- Deployed by Vercel
+
 # Astro Starter Kit: Basics
 
 ```sh
@@ -52,4 +76,3 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-# astro-portfolio
