@@ -1,5 +1,16 @@
 ---
 import Icon from "./Icon.astro";
+const props = Astro.props;
+
+const birthDay = new Date(1995, 6, 9);
+
+const currentDate = new Date();
+
+let age = currentDate.getFullYear() - birthDay.getFullYear();
+const m = currentDate.getMonth() - birthDay.getMonth();
+if (m < 0 || (m === 0 && currentDate.getDate() < birthDay.getDate())) {
+  age--;
+}
 ---
 
 <div class="hero mx-auto w-full py-10 min-h-screen bg-base-200">
@@ -29,7 +40,7 @@ import Icon from "./Icon.astro";
         <br />
         僕はハルキメデスと言います。
         <br />
-        1995年に北海道は函館で生まれた、現在28歳です。
+        1995年に北海道は函館で生まれた、現在{age}歳です。
         <br />
         高校までは水泳とハンドボールをずっとやっていました。
         <br />
