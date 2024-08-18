@@ -14,11 +14,11 @@
     "@astrojs/tailwind": "^5.1.0",
     "@astrojs/vercel": "^7.7.2",
     "@tailwindcss/typography": "^0.5.14",
-    "astro": "^4.13.1",
-    "astro-icon": "^1.1.0",
+    "astro": "^4.14.2",
+    "astro-icon": "^1.1.1",
     "jquery": "^3.7.1",
     "svelte": "^4.2.18",
-    "tailwindcss": "^3.4.8"
+    "tailwindcss": "^3.4.10"
   },
   "devDependencies": {
     "daisyui": "^4.12.10"
