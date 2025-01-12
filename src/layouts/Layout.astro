@@ -4,17 +4,22 @@ interface Props {
 }
 
 const { title } = Astro.props;
+
+import '@fontsource/zen-kurenaido';
+import '@fontsource-variable/raleway';
+import '@fontsource/kiwi-maru';
+import '@fontsource/homemade-apple';
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <html data-theme="cyberpunk"></html>
+    <html data-theme="valentine"></html>
     <title>{title}</title>
   </head>
   <body>

@@ -1,10 +1,10 @@
 <h1 id="Works" class="flex justify-center m-5 text-3xl lg:text-5xl font-bold">Works</h1>
 <div class="flex flex-col lg:flex-row mx-auto items-center justify-center">
-  <div class="card card-compact w-96 bg-base-100 shadow-xl py-5 m-5">
+  <div class="card card-compact w-96 shadow-2xl py-5 m-5">
     <figure class="px-10 pt-10"><img src="/kotonoha.webp" alt="kotonoha" class="w-30 h-30" /></figure>
     <div class="card-body">
       <h2 class="card-title">コトノハ ver.4</h2>
-      <p class="p-2">
+      <p class="p-2 font-kurenaido">
         “人の目を気にしなくていい自由なSNS” をコンセプトに作成しました。
         <br />
         Rails x TailwindCSS x daisyUI
@@ -12,9 +12,7 @@
         <br />
         良ければユーザー登録して遊んでみてください！
         <br />
-        ver.3 が公開停止したのをきっかけに急いで開発し、fly.ioでデプロイしました。
-        <br/>
-        肝心の Hotwire 対応はまだ出来ていないので慎重に適用していくところです！
+        Hotwireなど対応させた改良版を作成中です。
       </p>
       <div class="card-actions justify-end">
         <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">
@@ -23,32 +21,43 @@
       </div>
     </div>
   </div>
-  <div class="card card-compact w-96 bg-base-100 shadow-xl p-5 m-5">
+  <div class="card card-compact w-96 shadow-2xl p-5 m-5">
     <figure class="px-10 pt-10"><img src="/blog.webp" alt="Blog created by Fresh" class="w-30 h-30" /></figure>
     <div class="card-body">
       <h2 class="card-title">My Updating (b)logs</h2>
-      <p class="p-2">
-        簡単ですが、自作のブログを作ってみました！（といってもコンセプトは学生時代のままですが。。。）
+      <p class="p-2 font-kurenaido">
+        簡単ですが、自作のブログを作ってみました！
         <br />
         Deno という環境と fresh というフレームワークで作成しています。
         <br /> デプロイもDeno Deploy を用いています。
         <br />
-        microCMS作成した記事を取ってくるようにしています。
+        microCMSで作成した記事を取ってくるようにしています。
         <br />
-        こちらもAstro x Cloud Pagesで作り替えています。<br/>
-        →完了しました！下に貼っておきます！
+        こちらもAstro x Cloud Pagesで作り替えました。<br/>
       </p>
       <div class="card-actions justify-end">
         <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">
-          <a href="https://my-updating-logs.deno.dev/">旧ブログ</a>
-        </button>
-        <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">
-          <a href="https://my-updating-blogs.pages.dev/">新ブログ</a>
+          <a href="https://my-updating-blogs.pages.dev/">Click Me!</a>
         </button>
       </div>
     </div>
   </div>
-  <div class="card card-compact w-96 bg-base-100 shadow-xl py-5 m-5">
+  <div class="card card-compact w-96 shadow-2xl py-5 m-5">
+    <figure class="px-10 pt-10"><img src="/icon.gif" alt="Portfolio created by Astro & daisyUI" class="w-30 h-30" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">This Portfolio</h2>
+      <p class="p-2 font-kurenaido">
+        改めて、自分のプログラミング活動まとめ用にこのページを作成しました。
+        <br />
+        Astro x TailwindCSS (daisyUI) を使って作成しています。
+        <br />
+        デプロイは、Vercel で行っています。
+        <br />
+        Next.js よりも簡単そうで、ChakraUIよりも自由度が高そう (TailwindCSSの方が慣れている) のもあり作り直してみました。
+      </p>
+    </div>
+  </div>
+  <!-- <div class="card card-compact w-96 shadow-2xl py-5 m-5">
     <figure class="px-10 pt-10"><img src="/portfolio.webp" alt="Portfolio created by Next.js & ChakraUI" class="w-30 h-30" /></figure>
     <div class="card-body">
       <h2 class="card-title">My Portfolio (旧)</h2>
@@ -67,23 +76,5 @@
         </button>
       </div>
     </div>
-  </div>
-  <div class="card card-compact w-96 bg-base-100 shadow-xl py-5 m-5">
-    <figure class="px-10 pt-10"><img src="/icon.gif" alt="Portfolio created by Astro & daisyUI" class="w-30 h-30" /></figure>
-    <div class="card-body">
-      <h2 class="card-title">This Portfolio</h2>
-      <p class="p-2">
-        改めて、自分のプログラミング活動まとめ用にこのポートフォリオを作成しました。
-        <br />
-        Astro x TailwindCSS (daisyUI) を使って作成しています。
-        <br />
-        デプロイは、Vercel で行っています。
-        <br />
-        他の方の記事で読んだところ、Next.js よりも簡単そうで、ChakraUIよりも自由度が高そう (TailwindCSSの方が慣れている) のもあり、
-        作り直してみました。
-        <br/>
-        実際、こちらの方が開発はしやすい実感がありました。SSGに関しては、これからもAstroを使っていこうかなと思っています。(Svelteも気になってます。。。)
-      </p>
-    </div>
-  </div>
+  </div> -->
 </div>
